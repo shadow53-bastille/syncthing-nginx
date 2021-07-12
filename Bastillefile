@@ -1,0 +1,6 @@
+ARG SYNCTHING_DOMAIN
+ARG SYNCTHING_IP
+INCLUDE https://github.com/shadow53-bastille/nginx-acme
+OVERLAY usr
+SERVICE nginx reload
+
